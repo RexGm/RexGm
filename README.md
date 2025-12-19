@@ -29,7 +29,7 @@ My core stack is **Java & Spring Boot** for backend services, **PostgreSQL** for
 ## Contribution Streak
 
 <p align="left">
-  <img src="https://streak-stats.demolab.com?user=RexGm&theme=tokyonight&hide_border=true" />
+[![GitHub Streak](https://streak-stats.demolab.com/?user=DenverCoder1&theme=dark)](https://git.io/streak-stats)
 </p>
 
 ---
