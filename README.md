@@ -26,10 +26,10 @@ My core stack is **Java & Spring Boot** for backend services, **PostgreSQL** for
 
 ---
 
-## Contribution Activity
+## Contribution Streak
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=RexGm&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img src="https://streak-stats.demolab.com?user=RexGm&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
