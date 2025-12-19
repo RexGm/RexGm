@@ -2,11 +2,11 @@
 
 Backend-focused software developer building production-grade systems.
 
-My core stack is **Java & Spring Boot** for backend services, **PostgreSQL** for data consistency and performance, and **Python** for automation, tooling, ai and side services. I value clean architecture, clear domain boundaries, and systems that survive real-world usage.
+My core stack is **Java & Spring Boot** for backend services, **PostgreSQL** for data consistency and performance, and **Python** for automation, tooling, AI and side services. I value clean architecture, clear domain boundaries, and systems that survive real-world usage.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 <p align="left">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
@@ -17,7 +17,7 @@ My core stack is **Java & Spring Boot** for backend services, **PostgreSQL** for
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <p align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=RexGm&show_icons=true&theme=tokyonight&hide_border=true" height="170" />
@@ -26,28 +26,27 @@ My core stack is **Java & Spring Boot** for backend services, **PostgreSQL** for
 
 ---
 
-## 🔥 Contribution Streak
+## Contribution Activity
 
 <p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RexGm&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=RexGm&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
 </p>
 
 ---
 
-## 🎯 Current Focus
+## Current Focus
 
-* Designing clean and maintainable Spring Boot architectures
-* Building secure REST APIs (JWT, authentication flows)
-* PostgreSQL data modeling, indexing, and query optimization
-* Python-based automation and ai tools
-* Writing code that scales beyond the first release
+- Designing clean and maintainable Spring Boot architectures
+- Building secure REST APIs (JWT, authentication flows)
+- PostgreSQL data modeling, indexing, and query optimization
+- Python-based automation and AI tools
+- Writing code that scales beyond the first release
 
 ---
 
-## 📌 Philosophy
+## Philosophy
 
-* Fewer projects, higher quality
-* Every repository has a proper README
-* Small but consistent commits
-* Production mindset over tutorials
-
+- Fewer projects, higher quality
+- Every repository has a proper README
+- Small but consistent commits
+- Production mindset over tutorials
