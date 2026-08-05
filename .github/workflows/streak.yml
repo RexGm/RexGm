@@ -1,0 +1,45 @@
+name: Refresh streak
+
+# The streak strip is committed to the repo rather than fetched from a card
+# service at render time, so it needs a nudge once a day to stay current.
+on:
+  schedule:
+    - cron: "17 4 * * *"   # 04:17 UTC daily
+  workflow_dispatch:
+  push:
+    paths:
+      - assets/build_streak.py
+      - assets/theme.py
+      - .github/workflows/streak.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-streak
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild streak SVGs
+        run: python3 assets/build_streak.py "${{ github.repository_owner }}"
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- assets/streak-dark.svg assets/streak-light.svg; then
+            echo "streak unchanged"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/streak-dark.svg assets/streak-light.svg
+          git commit -m "Refresh contribution streak"
+          git push
